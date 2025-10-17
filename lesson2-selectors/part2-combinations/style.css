@@ -50,7 +50,7 @@ body {
    - Add specific styling to the first-level list items
    Hint: Use child selector (>)
 */
-.widget li {color: aqua; font-size: larger;}
+.sidebar > div > ul {color: aqua; font-size: larger;}
 
 
 /* ==========================================
@@ -75,7 +75,7 @@ body {
    - Give it a bold, slightly larger style
    Hint: Combine multiple selector types
 */
-.article-content  p {font-size: x-large; font-weight: bold; color: aliceblue;}
+.main-article div + div > p:first-child{font-size: x-large; font-weight: bold; color: aliceblue;}
 
 /* ==========================================
    ADVANCED CHALLENGE (BONUS)
